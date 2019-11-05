@@ -10,6 +10,14 @@ Twitch Clone project
 
     createStream - Will be used to store a new stream to the api server instance.
 
+    fetchStreams - Will be used to get a list of streams pertaining to a user.
+
+    fetchStream - Will be used to get a single stream.
+
+    deleteStream -Will be used to delete a single stream.
+
+    editStream - Will be used to edit the text stored in the db instance for a given stream. 
+    
 ** Reducers: **
     authReducer - Handles signing in and out for Google's oAuth. When signing in, updates the isSignedIn property to true when succesful and saves the userId as a property. When signing out, sets the property userId to null.
 

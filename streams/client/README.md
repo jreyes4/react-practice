@@ -21,6 +21,8 @@ Twitch Clone project
 ** Reducers: **
     authReducer - Handles signing in and out for Google's oAuth. When signing in, updates the isSignedIn property to true when succesful and saves the userId as a property. When signing out, sets the property userId to null.
 
+    streamReducer - Handles possible actions for stream actions. 
+
 ** Pages: **
     /streams/new - The stream create component contains a form that uses redux-form for creating new stream pages. 
 
